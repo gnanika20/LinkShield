@@ -1,3 +1,6 @@
 Flask
 mysql-connector-python
 Werkzeug
+joblib
+pandas
+scikit-learn
