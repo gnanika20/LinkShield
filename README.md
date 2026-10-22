@@ -12,12 +12,12 @@
 
 ##  Key Features
 
-- ** Intelligent URL Scanner**: Decomposes URLs into lexical and structural components to flag potential fraud vectors in real time (<50ms).
-- ** Machine Learning Threat Engine**: Powered by a trained **Random Forest classifier** evaluating 10+ URL features with a **99%+ detection rate**.
-- ** Granular Risk Scoring**: Provides a calibrated security risk percentage and itemized pass/warning checks for each scanned link.
-- ** User Authentication**: Secure registration, login, and password hashing (`pbkdf2:sha256`) with MySQL session management.
-- ** Telemetry & Scan Audit Log**: Maintains a chronological scan history allowing users to track previous audits and review historical verdicts.
-- ** Editorial Architectural UI**: Designed with a high-end minimalist editorial aesthetic featuring warm parchment canvas, terracotta coral accents, and SVG vector micro-interactions.
+- **Intelligent URL Scanner**: Decomposes URLs into lexical and structural components to flag potential fraud vectors in real time (<50ms).
+- **Machine Learning Threat Engine**: Powered by a trained **Random Forest classifier** evaluating 10+ URL features with a **99%+ detection rate**.
+- **Granular Risk Scoring**: Provides a calibrated security risk percentage and itemized pass/warning checks for each scanned link.
+- **User Authentication**: Secure registration, login, and password hashing (`pbkdf2:sha256`) with MySQL session management.
+- **Telemetry & Scan Audit Log**: Maintains a chronological scan history allowing users to track previous audits and review historical verdicts.
+- **Editorial Architectural UI**: Designed with a high-end minimalist editorial aesthetic featuring warm parchment canvas, terracotta coral accents, and SVG vector micro-interactions.
 
 ---
 
