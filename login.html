@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In — LinkShield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <span class="logo-symbol">🛡️</span>
+        <span>Link</span>Shield
+        <span class="logo-sub">DEFENSE MATRIX // 2.4</span>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="scanner.html">Scanner</a>
+        <a href="history.html">History</a>
+        <a href="login.html" id="loginNav" class="login">Sign In</a>
+        <button id="logoutNav" class="logout" onclick="logout()">Logout</button>
+    </div>
+</nav>
+
+<section class="auth page active">
+    <div class="auth-box">
+        <h1>Welcome Back</h1>
+        <p>Sign in to access your security telemetry & audit history.</p>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input id="loginEmail" type="email" placeholder="operator@domain.com">
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input id="loginPassword" type="password" placeholder="••••••••••••">
+        </div>
+
+        <button class="btn primary" onclick="login()">Authenticate →</button>
+
+        <p class="auth-bottom">
+            Don't have an account?
+            <a href="register.html" class="auth-link">Create Account</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <span>🍪</span> This website uses <a href="#privacy">cookies</a>.
+        </div>
+        <div class="footer-center">
+            🛡️ <span>LINK</span>·SHIELD — CYBER THREAT DEFENSE
+        </div>
+        <div class="footer-right">
+            <span class="active-lang">EN</span> / <span>IT</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

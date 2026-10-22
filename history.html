@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan History — LinkShield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <span class="logo-symbol">🛡️</span>
+        <span>Link</span>Shield
+        <span class="logo-sub">DEFENSE MATRIX // 2.4</span>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="scanner.html">Scanner</a>
+        <a href="history.html">History</a>
+        <a href="login.html" id="loginNav" class="login">Sign In</a>
+        <button id="logoutNav" class="logout" onclick="logout()">Logout</button>
+    </div>
+</nav>
+
+<section class="history page active">
+    <div class="history-top">
+        <div>
+            <small>AUDIT TRAIL // TELEMETRY</small>
+            <h1>Scan History</h1>
+        </div>
+        <div>
+            <button class="btn secondary" onclick="clearHistory()">Clear Archive</button>
+            <a href="scanner.html" class="btn primary">+ New Scan</a>
+        </div>
+    </div>
+
+    <div id="historyList" class="history-list"></div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <span>🍪</span> This website uses <a href="#privacy">cookies</a>.
+        </div>
+        <div class="footer-center">
+            🛡️ <span>LINK</span>·SHIELD — CYBER THREAT DEFENSE
+        </div>
+        <div class="footer-right">
+            <span class="active-lang">EN</span> / <span>IT</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
